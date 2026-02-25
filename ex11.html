@@ -1,0 +1,7 @@
+let x = parseFloat(prompt("Entrer un réel négatif :"));
+
+while (x >= 0 || isNaN(x)) {
+    x = parseFloat(prompt("Erreur ! Entrer un réel négatif :"));
+}
+
+console.log("Valeur retenue :", x);

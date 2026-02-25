@@ -1,0 +1,12 @@
+let n = parseInt(prompt("Entrer un entier strictement positif :"));
+
+while (n <= 0 || isNaN(n)) {
+    n = parseInt(prompt("Erreur ! Entrer un entier positif :"));
+}
+
+let i = 1;
+
+while (n * i < 100) {
+    console.log(n * i);
+    i++;
+}
